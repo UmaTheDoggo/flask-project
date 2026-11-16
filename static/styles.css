@@ -16,7 +16,7 @@ body {
 
 .menu-box {
   background-color: #2b2b2b;
-  border: 4px solid #000000;
+  border: 4px solid black;
   padding: 40px 50px;
   text-align: center;
   width: 450px;
@@ -25,7 +25,7 @@ body {
 }
 
 .menu-box h1 {
-  color: #e0e0e0;
+  color: white;
   font-size: 40px;
   line-height: 1.3;
   margin: 0 0 35px 0;
@@ -34,8 +34,8 @@ body {
 
 .menu-box p {
   background-color: darkgray;
-  color: #ffffff;
-  font-size: 0.9rem;
+  color: white;
+  font-size: 24px;
   padding: 16px 20px;
   margin: 14px 0;
   cursor: pointer;
@@ -43,9 +43,9 @@ body {
 }
 
 .menu-box p:hover {
-  background-color: #7e88bf;
+  background-color: rgb(115, 115, 255);
 }
 
 .menu-box p:active {
-  background-color: #5e6691;
+  background-color: rgb(88, 76, 255);
 }
