@@ -1,0 +1,51 @@
+/* Optional: Import a retro pixel font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-image: url(/pic/cave.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Press Start 2P", monospace;
+}
+
+.menu-box {
+  background-color: #2b2b2b;
+  border: 4px solid #000000;
+  padding: 40px 50px;
+  text-align: center;
+  width: 450px;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+.menu-box h1 {
+  color: #e0e0e0;
+  font-size: 40px;
+  line-height: 1.3;
+  margin: 0 0 35px 0;
+  letter-spacing: 2px;
+}
+
+.menu-box p {
+  background-color: darkgray;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 16px 20px;
+  margin: 14px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-box p:hover {
+  background-color: #7e88bf;
+}
+
+.menu-box p:active {
+  background-color: #5e6691;
+}
